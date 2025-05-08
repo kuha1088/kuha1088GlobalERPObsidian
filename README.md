@@ -1,0 +1,1 @@
+Repository for GlobalERP job tasks management in Obsidian 

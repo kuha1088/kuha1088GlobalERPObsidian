@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"80b93b41598f8505","type":"file","file":"Global ERP/Projects/SNGS/SNGS node.md","x":-240,"y":-720,"width":400,"height":320,"color":"6"},
+		{"id":"31a9d046765a40f2","type":"file","file":"Global ERP/Projects/SNGS/Contracts/Contracts node.md","x":-960,"y":-724,"width":400,"height":89,"color":"6"},
+		{"id":"0c6e6e3cb769a2e5","type":"file","file":"Global ERP/Projects/SNGS/Tenders/Tenders node.md","x":-960,"y":-520,"width":400,"height":89,"color":"6"},
+		{"id":"b61e2d1df67bf472","type":"file","file":"Global ERP/Projects/SNGS/Purchases/Purchases node.md","x":-960,"y":-960,"width":400,"height":120,"color":"6"},
+		{"id":"d2c6af46273a6d84","type":"file","file":"Global ERP/Projects/SNGS/Purchases/Materials/Materials node.md","x":-1600,"y":-1049,"width":400,"height":89,"color":"6"},
+		{"id":"bec5d76a90a8c203","type":"file","file":"Global ERP/Projects/SNGS/Purchases/Services/Services node.md","x":-1600,"y":-840,"width":400,"height":161,"color":"5"},
+		{"id":"6ba8573be5ab7d4b","type":"file","file":"Global ERP/Projects/SNGS/Electronic Document Flow/Electronic Document Flow node.md","x":-960,"y":-280,"width":400,"height":89,"color":"6"},
+		{"id":"4a49424a921b0706","type":"file","file":"Global ERP/Projects/SNGS/Payments/Payments node.md","x":-240,"y":-160,"width":400,"height":89,"color":"6"},
+		{"id":"adb117ab564097fd","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Accounting node.md","x":391,"y":-680,"width":400,"height":240,"color":"5"},
+		{"id":"52e1150492090e75","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Common/Accounting Common node.md","x":1033,"y":-1000,"width":400,"height":116,"color":"5"},
+		{"id":"bf6ba662ffe68fe9","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Sales/Accounting Sales node.md","x":1033,"y":-233,"width":400,"height":113,"color":"5"},
+		{"id":"8369dc9d21beddf9","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Common/СНГ-Р1.md","x":1594,"y":-1087,"width":400,"height":87,"color":"5"},
+		{"id":"4c72ef71415b69fa","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Common/ОСВ ZF16.md","x":1594,"y":-915,"width":400,"height":87,"color":"5"},
+		{"id":"682e51180c13f9b8","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Cash/Accounting Cash node.md","x":1033,"y":-739,"width":400,"height":120,"color":"5"},
+		{"id":"fb85b2a965839e7e","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Imprest/Accounting Imprest node.md","x":1033,"y":-480,"width":400,"height":120,"color":"5"},
+		{"id":"28056aab0e844e4e","type":"file","file":"Global ERP/Projects/SNGS/Contracts/Загрузка начальных данных по договорам.md","x":-1600,"y":-520,"width":400,"height":98,"color":"5"},
+		{"id":"bfad68d03b1efc75","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Cash/Проектное решение. Кассовые операции.md","x":1594,"y":-739,"width":400,"height":119,"color":"5"}
+	],
+	"edges":[
+		{"id":"04dd749fe096b27c","fromNode":"80b93b41598f8505","fromSide":"left","toNode":"b61e2d1df67bf472","toSide":"right","color":"6"},
+		{"id":"78dea4405841e492","fromNode":"80b93b41598f8505","fromSide":"left","toNode":"31a9d046765a40f2","toSide":"right","color":"6"},
+		{"id":"ce5ec1ccb04496a4","fromNode":"80b93b41598f8505","fromSide":"left","toNode":"0c6e6e3cb769a2e5","toSide":"right","color":"6"},
+		{"id":"3c7dca443d820e8c","fromNode":"b61e2d1df67bf472","fromSide":"left","toNode":"d2c6af46273a6d84","toSide":"right","color":"6"},
+		{"id":"1eb21be5fca9fe67","fromNode":"b61e2d1df67bf472","fromSide":"left","toNode":"bec5d76a90a8c203","toSide":"right","color":"5"},
+		{"id":"630abed1b7b09a2b","fromNode":"80b93b41598f8505","fromSide":"left","toNode":"6ba8573be5ab7d4b","toSide":"right","color":"6"},
+		{"id":"047f7f13ee126106","fromNode":"80b93b41598f8505","fromSide":"bottom","toNode":"4a49424a921b0706","toSide":"top","color":"6"},
+		{"id":"ca60bd37b3f01953","fromNode":"80b93b41598f8505","fromSide":"right","toNode":"adb117ab564097fd","toSide":"left","color":"5"},
+		{"id":"c72bbd749e4232fc","fromNode":"adb117ab564097fd","fromSide":"right","toNode":"52e1150492090e75","toSide":"left","color":"5"},
+		{"id":"6eb765961a7b164b","fromNode":"adb117ab564097fd","fromSide":"right","toNode":"fb85b2a965839e7e","toSide":"left","color":"5"},
+		{"id":"2415c9516e68f9e0","fromNode":"adb117ab564097fd","fromSide":"right","toNode":"bf6ba662ffe68fe9","toSide":"left","color":"5"},
+		{"id":"4cce7146b65109d8","fromNode":"52e1150492090e75","fromSide":"right","toNode":"8369dc9d21beddf9","toSide":"left","color":"5"},
+		{"id":"b1d0cb3ee5c5f144","fromNode":"52e1150492090e75","fromSide":"right","toNode":"4c72ef71415b69fa","toSide":"left","color":"5"},
+		{"id":"55b8eb7534b884a7","fromNode":"adb117ab564097fd","fromSide":"right","toNode":"682e51180c13f9b8","toSide":"left","color":"5"},
+		{"id":"4446dd744b1af466","fromNode":"31a9d046765a40f2","fromSide":"left","toNode":"28056aab0e844e4e","toSide":"right","color":"5"},
+		{"id":"3e205e147fcc64bc","fromNode":"682e51180c13f9b8","fromSide":"right","toNode":"bfad68d03b1efc75","toSide":"left","color":"5"}
+	]
+}
