@@ -1,7 +1,7 @@
 **In process:**
-[Проектное решение. Кассовые операции](Global%20ERP/Projects/SNGS/Accounting/Cash/Проектное%20решение.%20Кассовые%20операции.md)
+[Проектное решение. Кассовые операции](Global%20ERP/Projects/SNGS/Accounting/Cash/In%20process/Проектное%20решение.%20Кассовые%20операции.md)
 
-[Донастроить схему интеграции](Global%20ERP/Projects/SNGS/Accounting/Cash/Донастроить%20схему%20интеграции.md)
+[Донастроить схему интеграции](Global%20ERP/Projects/SNGS/Accounting/Cash/In%20process/Донастроить%20схему%20интеграции.md)
 
 [Справка целевого назначения](Справка%20целевого%20назначения.md)
 
