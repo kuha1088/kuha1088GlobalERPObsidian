@@ -17,7 +17,7 @@
 		{"id":"fb85b2a965839e7e","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Imprest/Accounting Imprest node.md","x":1033,"y":-480,"width":400,"height":120,"color":"5"},
 		{"id":"28056aab0e844e4e","type":"file","file":"Global ERP/Projects/SNGS/Contracts/In process/Загрузка начальных данных по договорам.md","x":-1600,"y":-520,"width":400,"height":98,"color":"5"},
 		{"id":"bfad68d03b1efc75","type":"file","file":"Global ERP/Projects/SNGS/Accounting/Cash/In process/Проектное решение. Кассовые операции.md","x":1594,"y":-739,"width":400,"height":119,"color":"5"},
-		{"id":"c4595ab61741f71e","x":-2240,"y":-823,"width":400,"height":128,"color":"5","type":"file","file":"Global ERP/Projects/SNGS/Purchases/Services/Сессия загрузки РЖД.md"}
+		{"id":"c4595ab61741f71e","x":-2240,"y":-823,"width":400,"height":128,"color":"5","type":"file","file":"Global ERP/Projects/SNGS/Purchases/Services/In process/Сессия загрузки РЖД.md"}
 	],
 	"edges":[
 		{"id":"04dd749fe096b27c","fromNode":"80b93b41598f8505","fromSide":"left","toNode":"b61e2d1df67bf472","toSide":"right","color":"6"},
