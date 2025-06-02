@@ -1,0 +1,59 @@
+/*
+spCheckAvailableExecutorByPsSubject
+Проверка свободных исполнителей по субъекту процесса
+*/
+
+
+/*
+Проверка свободных исполнителей по субъекту процесса для выполнения задачи
+Параметры: {системное имя субъекта процесса};{параметр для записи числового значения}
+*/
+
+var NNumber = function (number) { new ("ru.bitec.app.gtk.lang.NNumber", number); }
+
+// param - строка с произвольными параметрами jexl скрипта
+var paramArr = param.split(";");
+var svSignSubj = paramArr[0];
+var svParamName = paramArr[1].toString();
+
+// idpPrState- параметр jexl скрипта с id состояния
+var ropProc = Bpm_PrStateApi.getProcess(idpPrState);
+var ropSignOpt = Bpm_PrSubjectApi.getByPSSubject(ropProc, svSignSubj);
+
+if (!empty(ropSignOpt)) {
+  var ropSign = ropSignOpt.get();
+  var aroSign = ropSign.copyAro();
+  var idPrSubject = aroSign.id;
+  
+  var sqlUser = `select btkUser.gid from Btk_User btkUser
+    where btkUser.id in (select prsubjuser.idUser from Bpm_PrSubjUser prSubjUser
+    where prsubjuser.idPrSubject = `+idPrSubject+`)`;
+  var gidavUser = sql(sqlUser).asList();
+
+  var sqlAcProfile = `select acProfile.gid from Btk_AcProfile acProfile
+    where acProfile.id in (select prSubjAcProfile.idAcProfile from Bpm_PrSubjAcProfile prSubjAcProfile
+    where prSubjAcProfile.idPrSubject = `+idPrSubject+`)`;
+  var gidavAcProfile = sql(sqlAcProfile).asList();
+  gidavUser.addAll(gidavAcProfile);
+
+  if (!Bpm_ProcessApi.checkVarExists(ropProc, svParamName)) {
+    raise(`Переменной`+svParamName+` для данного процесса не существует!!`);
+  }
+  Bpm_ProcessApi.setProcessVar(ropProc, svParamName, 1);
+  for (gidvResource : gidavUser) {
+    var query = `select t.id
+               from Mpr_OperModeResource t
+               where t.gidResource = '`+gidvResource.gid+`'
+                and t.dbegin < now() and (t.dend is null or t.dend > now())`;
+    var lst = sql(query).asList();
+    if (lst.size() == 0) {
+      Bpm_ProcessApi.setProcessVar(ropProc, svParamName, 0);
+    }
+  }
+  
+  if (Bpm_ProcessApi.getProcessVar(ropProc, svParamName).toLong() == 0.0) {
+    var idvState = Bpm_PrStateApi.load(idpPrState).copyAro().idState();
+    var svCaption = Btk_ClassStateApi.load(idvState).copyAro().sCaption();
+    selection.coreRep().application().notifications().notify("Задача, направленная по маршруту, не может быть выполнена, поскольку в данный момент отсутствуют доступные исполнители. Текущее состояние задачи: "+svCaption);
+  }
+}
