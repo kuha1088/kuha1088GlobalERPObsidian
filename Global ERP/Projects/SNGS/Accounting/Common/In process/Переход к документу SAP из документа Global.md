@@ -6,3 +6,6 @@
 ![](eXpress_Lhw3GLF0RM.png)
 
 ![](eXpress_juNLvt8FoJ.png)
+
+
+231298D Реализовать метод для открытия карточки в SAP
