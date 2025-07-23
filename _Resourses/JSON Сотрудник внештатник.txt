@@ -1,0 +1,2 @@
+{ "LAST_NAME": "Кривошеев", "NAME": "Виктор", "SURNAME": "Михайлович", "INITIAL": "В.М.", "FULL_NAME": "Кривошеев Виктор Михайлович", "GENDER": "М", "BIRTH_DATE": "1953-06-14", "CITIZENSHIP": { "CHANGE_TYPE": "ALL", "VALUES": [{ "_KEYS": {"ID": "643"}}]} }
+{ "EMPLOYEE": { "VALUES": [{ "_KEYS": {"PERSONNEL_ID": "204"}}]}, "STUFF_UNIT": { "VALUES": [{ "_KEYS": {"ID": "50292839"}}]}, "SDATE": "2008-06-02", "EDATE": "2010-05-31", "APPOINT": { "VALUES": [{ "_KEYS": {"APPOINT": "Основное"}}]} }
