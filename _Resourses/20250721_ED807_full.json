@@ -1,0 +1,90 @@
+{
+    "eventProperties": {
+        "id": "1754390454350-212-13000081450290",
+        "type": "RECORD_MODIFY",
+        "typeId": "212",
+        "date": "2025-8-5 15:40:54.350",
+        "version": "1.0.0"
+    },
+    "systemIdentifiers": {
+        "recordGuid": 13000081872337,
+        "dictionaryGuid": 13000081450290,
+        "dictionaryCode": "HR_ASSIGMENT",
+        "requestId": 1013091
+    },
+    "eventData": {
+        "values": {
+            "KOSTL": {
+                "type": "link",
+                "linkType": 11,
+                "linkedDict": {
+                    "dictionaryGuid": 13000081819567,
+                    "dictionaryCode": "MVZ"
+                },
+                "linkedDictKey": {
+                    "MVZ": {
+                        "value": "6556230206",
+                        "type": "string"
+                    },
+                    "_GUID": {
+                        "value": 13000081824496,
+                        "type": "int64"
+                    }
+                }
+            }
+        },
+        "oldValues": {
+            "KOSTL": {
+                "type": "link",
+                "linkType": 11,
+                "linkedDict": {
+                    "dictionaryGuid": 13000081819567,
+                    "dictionaryCode": "MVZ"
+                },
+                "linkedDictKey": null
+            }
+        },
+        "key": {
+            "EMPLOYEE": {
+                "type": "link",
+                "linkType": 11,
+                "linkedDict": {
+                    "dictionaryGuid": 13000062235394,
+                    "dictionaryCode": "HR_EMPLOYEE"
+                },
+                "linkedDictKey": {
+                    "PERSONNEL_ID": {
+                        "value": 18018,
+                        "type": "int64"
+                    },
+                    "_GUID": {
+                        "value": 13000081847634,
+                        "type": "int64"
+                    }
+                }
+            },
+            "STUFF_UNIT": {
+                "type": "link",
+                "linkType": 11,
+                "linkedDict": {
+                    "dictionaryGuid": 13000045117447,
+                    "dictionaryCode": "HR_STUFF_UNIT"
+                },
+                "linkedDictKey": {
+                    "ID": {
+                        "value": "50373026",
+                        "type": "string"
+                    },
+                    "_GUID": {
+                        "value": 13000081872336,
+                        "type": "int64"
+                    }
+                }
+            },
+            "SDATE": {
+                "value": "2011-01-01",
+                "type": "date"
+            }
+        }
+    }
+}
