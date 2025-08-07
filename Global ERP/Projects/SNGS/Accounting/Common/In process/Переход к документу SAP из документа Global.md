@@ -28,7 +28,7 @@
 
 ![](Pasted%20image%2020250728155030.png)
 
-![](Pasted%20image%2020250807132701.png)
+![](Pasted%20image%2020250807140216.png)
 
 
 
