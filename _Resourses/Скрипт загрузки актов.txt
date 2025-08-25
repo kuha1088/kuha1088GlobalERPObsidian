@@ -1,0 +1,50 @@
+// Коды сущностей-параметров процедуры импорта
+
+// Btk_ObjectType для полностью оплаченного Stm_ActIn
+const svPayedActInOtMc = "ZSngStm_ActInActInitialLoadPayed";
+
+// Btk_ObjectType для имеющего задолженность Stm_ActIn
+const svDebtActInOtMc = "ZSngStm_ActInActInitialLoadDebt";
+// Btk_ObjectType для спецификации договора к имеющему задолженность Stm_ActIn
+const svContractStageOTToDetbActInOtMc = "ZSngCnt_ContractStageToDebtActInFromSap";
+
+const svDepOwnerMC = "1000000";
+// Служебная услуга
+const svServiceMC = "80000Srv";
+
+// Показатель Bbb_Indicator для ЦФУ
+const svOfsResponsibleIndMC = "idOFSResponsible";
+// Показатель Bbb_Indicator для ЦФО
+const svOfsFinCenterIndMC = "idSngOfsFinCenter";
+// Показатель Bbb_Indicator для куратора по направлению деятельности
+const svRespOfsIndMC = "idRespOfs";
+
+const findOTByMC = (spMC, idpClass) -> {
+  const idvOT = Btk_ObjectTypeApi.findByMnemoCodeAndClass(spMC, idpClass);
+  if (isNull(idvOT)) {
+    const svClassName = Btk_ClassApi.load(idpClass).sCaption;
+    raise(`У класса "${svClassName}" отсутствует тип с кодом "${spMC}".`);
+  }
+  return idvOT;
+};
+
+const importDocs = (pWorkbook) -> {
+  const bvMustFind = true;
+
+  ZSngStm_XlsxSapActInImportPkg.importDocs(
+    pWorkbook = pWorkbook,
+    idpPayedActInOT = findOTByMC(svPayedActInOtMc, Stm_ActInApi.idClass()),
+    idpDebtActInOT = findOTByMC(svDebtActInOtMc, Stm_ActInApi.idClass()),
+    idpContractStageOTToDetbActIn = findOTByMC(svContractStageOTToDetbActInOtMc, Cnt_ContractApi.idClass()),
+
+    idpDepOwner = Bs_DepOwnerApi.findByMnemoCode(svDepOwnerMC, bvMustFind),
+    idpServiceToDet = Gds_ServiceApi.findByMnemoCode(svServiceMC, bvMustFind),
+    idpOfsResponsibleInd = Bbb_IndicatorApi.findByMnemoCode(svOfsResponsibleIndMC, bvMustFind),
+    idpOfsFinCenterInd = Bbb_IndicatorApi.findByMnemoCode(svOfsFinCenterIndMC, bvMustFind),
+
+    idpRespOfsInd = Bbb_IndicatorApi.findByMnemoCode(svRespOfsIndMC, bvMustFind)
+  );
+  return true;
+};
+
+lib("Btk_XlsxLib").uploadParseFile(importDocs);
