@@ -1,0 +1,21 @@
+var idvAccKindGroup = Bs_AccKindGroupApi.findByMnemoCode('Acc');
+var l = sql(`
+select
+    coo.gid as coogid,
+    trans.id as idtrans
+from pm_ordercashout coo
+join pm_ordercashin coi on coo.idcashorderin = coi.id 
+join act_transdoc transdoc on transdoc.gidsrc = coi.gid
+join act_trans trans on trans.idtransdoc = transdoc.id
+where not exists (
+    select 1 
+    from act_transobjlink translink 
+    where translink.gidobj = coo.gid
+);  
+`).asList()
+
+for(w:l) {
+   var ropTr = Act_TransApi.load(w.idtrans);
+   Act_TransObjLinkApi.regObj(ropTr, w.coogid); // Привязка проводки к связанному документу
+   Bs_FlagAccKindBookDocApi.transByAccKindGroup(w.coogid, idvAccKindGroup); // Установка признака отражения в учете
+}
