@@ -4,19 +4,15 @@ kanban-plugin: board
 
 ---
 
-## Imprest
-
-- [ ] Закрыть 248122D
-	
-	Вместо этого создать подзадачу к 249220T
-
-
 ## Analisys
 
 
 
-## 
+## Tech Spec
 
+- [ ] Закрыть 248122D
+	
+	Вместо этого создать подзадачу к 249220T
 
 
 ## Develop
@@ -31,6 +27,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
 ```
 %%
