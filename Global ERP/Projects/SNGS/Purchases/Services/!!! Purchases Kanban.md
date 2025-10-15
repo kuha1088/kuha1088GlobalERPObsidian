@@ -12,6 +12,8 @@ kanban-plugin: board
 
 - [ ] 250798D - [MTP_DEV-3500](https://yt.surgutneftegas.ru:4443/issue/MTP_DEV-3500) Избавиться от создания дубликатов при обработке сессии загрузки э/э. Проектно СНГ
 	#ТитовВадим
+- [ ] 249036D - [MTP_DEV-3446](https://yt.surgutneftegas.ru:4443/issue/MTP_DEV-3446)Ограничивать поле "Договор" подклассом в сессии загрузки э/э. Проектно СНГ.
+	#ТитовВадим
 
 
 ## Distribution
