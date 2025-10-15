@@ -18,6 +18,8 @@ kanban-plugin: board
 
 ## Distribution
 
+- [ ] 249438D - [MTP_DEV-3473](https://yt.surgutneftegas.ru:4443/issue/MTP_DEV-3473)Изменить текст сообщения ошибки при распределении потребности сессии загрузки э/э. Проектно СНГ.
+	#ТитовВадим
 
 
 ## Develop
