@@ -20,14 +20,11 @@ kanban-plugin: board
 
 ## Distribution
 
-<<<<<<< HEAD
-=======
 - [ ] 251326D - MTP_DEV-3447. Увеличить кол-во цифр после запятой для итогов грида в позициях / контировках акта. Проектно СНГ
 	#ТитовВадим 
 	#КозловскийЯрослав
 - [ ] 251488D - MTP_DEV-3404 Доработка интерфейса "Сводный анализ обработки заявок". Проектно СНГ
 	#КозловскийЯрослав
->>>>>>> origin/main
 
 
 ## Develop
@@ -88,6 +85,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
 ```
 %%
