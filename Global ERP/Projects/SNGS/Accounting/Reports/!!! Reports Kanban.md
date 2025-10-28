@@ -10,6 +10,9 @@ kanban-plugin: board
 
 ## Tech Spec
 
+- [ ] 244751D FI_REPORT-1. Отчёт MDA. Доработка. Правила сохранения настроек
+	#КалашниковаМария 
+	#ОвчинниковДанил
 
 
 ## Distribution
