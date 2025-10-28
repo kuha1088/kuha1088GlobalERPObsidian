@@ -29,6 +29,7 @@ kanban-plugin: board
 
 ## Develop
 
+- [ ] 252478D FI_REPORT-1. Главная книга MDA. Доработка. Доработка фильтров. #БелянинАлексей
 
 
 ## Done
