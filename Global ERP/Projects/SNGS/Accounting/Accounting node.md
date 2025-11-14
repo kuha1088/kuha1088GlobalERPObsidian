@@ -1,4 +1,4 @@
-[Accounting Common node](Accounting%20Common%20node.md)
+[Reports node](Reports%20node.md)
 
 [Accounting Cash node](Accounting%20Cash%20node.md)
 
