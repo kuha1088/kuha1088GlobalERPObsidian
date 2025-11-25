@@ -1,0 +1,58 @@
+[
+	"net.oilix.udsm.messagecustom.Envelopecustom",
+	{
+		"chainId": "",
+		"requestId": "12",
+		"parentId": "",
+		"source": "SNG_BUSTST_DB1_DIRECTUM_RX2",
+		"destination": "SNG_BUSTST_DB1_GLOBAL",
+		"status": "",
+		"messageStatus": "",
+		"datatype": "net.oilix.udsm.directumrx.TripJob",
+		"instance": [
+			"net.oilix.udsm.directumrx.TripJob",
+			{
+				"TripJobInfoForGlobal": {
+					"DestinationType": "РФ",
+					"RegNumber": "",
+					"RegDate": "",
+					"Index": "0",
+					"LifeCycleState": "Оформление",
+					"PersonnelNumber": "00026082",
+					"DocKindFormCode": "Т-10а",
+					"TripReasonRegNum": "65-01-219-272",
+					"TripReasonRegDate": "19.11.2025",
+					"DocumentKind": "Электронная служебная записка",
+					"StructlUnit": "6500",
+					"AssigStructUnit": "6500",
+					"DepartManagerCode": "00199977",
+					"StartDate": "17.11.2025",
+					"EndDate": "20.11.2025",
+					"FactStartDate": "",
+					"DocumentLink": "https://directumrxtst/DirectumRx?type=5a23ba3c-e2d2-4045-8d62-c68c7a3435e8&id=29441110",
+					"TripEstimate": [
+						{
+							"Sum": "1",
+							"Currency": "2",
+							"Way": "3",
+							"Date": "01.01.2025"
+						}
+					],
+					"TripRoute": [
+						{
+							"Number": "1",
+							"Country": "643",
+							"Destination": "г.Сургут",
+							"StartDate": "17.11.2025",
+							"EndDate": "20.11.2025",
+							"Company": "",
+							"StructUnit": "",
+							"Mission": "цель"
+						}
+					]
+				}
+			}
+		],
+		"fileName": ""
+	}
+]
