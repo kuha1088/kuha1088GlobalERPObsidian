@@ -1,5 +1,5 @@
 <u>Задачи Obsidian</u>
-
+[!!! VAT common SNGS](!!!%20VAT%20common%20SNGS.md)
 
 <u>Задачи Support:</u>
 <p>256262D Книга покупок. Реализация печатной формы</p>
