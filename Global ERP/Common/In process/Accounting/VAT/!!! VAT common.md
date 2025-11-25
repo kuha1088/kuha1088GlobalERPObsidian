@@ -1,5 +1,8 @@
-<u>Связанные задачи YT:</u>
+<u>Задачи Obsidian</u>
+[Счет-фактура](Счет-фактура.md)
 
+<u>Связанные задачи YT:</u>
+[yt.surgutneftegas.ru:4443/issue/FI_CRED-5](https://yt.surgutneftegas.ru:4443/issue/FI_CRED-5)
 
 <u>Задачи Support:</u>
 <p>256262D Книга покупок. Реализация печатной формы</p>
