@@ -1,6 +1,6 @@
 <u>Common</u>:
 [Global ERP Trainig node](Global%20ERP%20Trainig%20node.md)
-[Global ERP Common node](Global%20ERP%20Common%20node.md)
+[!!! Common Global ERP](!!!%20Common%20Global%20ERP.md)
 
 <u>Projects</u>:
 [CHMF node](CHMF%20node.md)

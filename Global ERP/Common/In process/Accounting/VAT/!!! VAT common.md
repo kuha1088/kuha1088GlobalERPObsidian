@@ -1,4 +1,7 @@
 <u>Задачи Obsidian</u>
+[Тип налогообложения](Тип%20налогообложения.md)
+
+<u>Projects:</u>
 [!!! VAT common SNGS](!!!%20VAT%20common%20SNGS.md)
 
 <u>Задачи Support:</u>

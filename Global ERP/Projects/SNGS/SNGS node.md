@@ -6,4 +6,4 @@
 
 [Payments node](Payments%20node.md)
 
-[Accounting node](Accounting%20node.md)
+[!!! Accounting common SNGS](!!!%20Accounting%20common%20SNGS.md)
