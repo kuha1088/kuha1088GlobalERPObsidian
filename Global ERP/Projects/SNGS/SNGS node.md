@@ -1,4 +1,4 @@
-[Purchases node](Purchases%20node.md)
+[!!! Purchases common SNGS](!!!%20Purchases%20common%20SNGS.md)
 [Contracts node](Contracts%20node.md)
 [Tenders node](Tenders%20node.md)
 

@@ -1,7 +1,7 @@
 
 <u>Задачи Obsidian:</u>
-[!!! VAT common](!!!%20VAT%20common.md)
-[!!! Reports common](!!!%20Reports%20common.md)
+[!!! VAT common Global](!!!%20VAT%20common%20Global.md)
+[!!! Reports common Global](!!!%20Reports%20common%20Global.md)
 [Переход на ставку НДС 22%](Переход%20на%20ставку%20НДС%2022%.md)
 [ГТД](ГТД.md)
 [Счет-фактура](Счет-фактура.md)
