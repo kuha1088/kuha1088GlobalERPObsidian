@@ -3,8 +3,8 @@
 [!!! Common Global ERP](!!!%20Common%20Global%20ERP.md)
 
 <u>Projects</u>:
-[CHMF node](CHMF%20node.md)
+[CHMF common](CHMF%20common.md)
 [GMKN node](GMKN%20node.md)
 [RTKM node](RTKM%20node.md)
-[SNGS node](SNGS%20node.md)
+[!!! SNGS common](!!!%20SNGS%20common.md)
 [VTBR node](VTBR%20node.md)

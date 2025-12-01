@@ -1,5 +1,5 @@
 <u>Задачи Obsidian:</u>
-[!!! Imprest common SNGS](!!!%20Imprest%20common%20SNGS.md)
+[!!! Общее по АО common SNGS](!!!%20Общее%20по%20АО%20common%20SNGS.md)
 
 <u>Задачи YT:<u>
 [Пункты меню : CASH-309](https://yt.surgutneftegas.ru:4443/issue/CASH-309)

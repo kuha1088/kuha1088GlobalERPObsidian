@@ -1,4 +1,5 @@
 <u>Задачи Obsidian:</u>
+[!!! Прочее services SNGS](!!!%20Прочее%20services%20SNGS.md)
 [!!! Services common](!!!%20Services%20common.md)
 [!!! Документооборот common](!!!%20Документооборот%20common.md)
 [!!! Документы корректировки common SNGS](!!!%20Документы%20корректировки%20common%20SNGS.md)

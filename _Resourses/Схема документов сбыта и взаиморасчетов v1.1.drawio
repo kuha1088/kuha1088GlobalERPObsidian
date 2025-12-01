@@ -1,0 +1,235 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.2.14">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="3057" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Расходная накладная&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;В базовой поставке Глобал:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Основа для создания дебиторской задолженности&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1620" y="250" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-1" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;График платежей&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Создается в разрезе позиций РН, содержит данные о бюджетном адресе&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1290" y="410" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-3" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Исходящий счет-фактура&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Может включать несколько расходных накладных&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1275" y="71" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-5" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.011;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-1" target="5CcdiKCaSnjm8-DAV0x5-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1369" y="802" as="sourcePoint" />
+            <mxPoint x="-1250" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1350" y="280" />
+              <mxPoint x="-1350" y="119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-8" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Документ предварительного платежа&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Создается в разрезе БЕ, бюджетного адреса, &lt;font color=&quot;#ff3333&quot;&gt;счета БУ&lt;/font&gt; и плановой даты оплаты.&lt;br&gt;Требуется настроить создание ДПП в разрезе позиций РН&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="420" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-9" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-8" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Объект баланса (PM_BalObj)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;В целевой схеме объекты баланса создаются 1 в 1 к ДПП&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="600" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-10" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="5CcdiKCaSnjm8-DAV0x5-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1070" y="480" as="sourcePoint" />
+            <mxPoint x="-1198" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-1" target="5CcdiKCaSnjm8-DAV0x5-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1388" y="317" as="sourcePoint" />
+            <mxPoint x="-1198" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-8" target="5CcdiKCaSnjm8-DAV0x5-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1070" y="500" as="sourcePoint" />
+            <mxPoint x="-970" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-15" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Книга продаж&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-985" y="71" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-15" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-5" target="5CcdiKCaSnjm8-DAV0x5-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1373" y="238" as="sourcePoint" />
+            <mxPoint x="-1263" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-18" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Хозяйственная операция&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Проводки БУ&lt;br&gt;К6201020001 К9001020001&amp;nbsp;&lt;br&gt;Д9003020000&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Д6801010000&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;br&gt;Д9002020000 К4102020000 (Опционально)&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1275" y="230" width="255" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-19" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-18" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-1" target="5CcdiKCaSnjm8-DAV0x5-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1390" y="290" as="sourcePoint" />
+            <mxPoint x="-1263" y="129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1274" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-23" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Расходный складской ордер&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Создается в случае необходимости выполнения складского движения на расход&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1620" y="430" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-24" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-23" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1390" y="350" as="sourcePoint" />
+            <mxPoint x="-1510" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-26" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Взаиморасчет (PM_PayMove)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Зачет аванса&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Фактическая оплата&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Взаимозачет&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Перевод долга&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- ...&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="600" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-27" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-26" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-28" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Входящее платежное поручение&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Содержит позиции распределения по БЕ и бюджетным адресам&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-418" y="420" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-29" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-28" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-30" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Корректировка задолженности&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Перевод долга между договорами&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;- Корректировка долга&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-418" y="600" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-31" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-30" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.459;entryDx=0;entryDy=0;exitX=0.995;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-10" target="5CcdiKCaSnjm8-DAV0x5-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-860" y="550" as="sourcePoint" />
+            <mxPoint x="-860" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-30" target="5CcdiKCaSnjm8-DAV0x5-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="540" as="sourcePoint" />
+            <mxPoint x="-410" y="661" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.776;entryY=0.003;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-28" target="5CcdiKCaSnjm8-DAV0x5-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-749" y="676" as="sourcePoint" />
+            <mxPoint x="-688" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-37" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Взаимозачет&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Подбираются не закрытые объекты баланса в части дебиторской и кредиторской задолженности&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-418" y="250" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-38" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-37" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.01;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-449" y="320" as="sourcePoint" />
+            <mxPoint x="-600" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-40" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Хозяйственная операция&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Проводки БУ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Д5100000000&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;- факт.оплата&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="420" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-41" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-40" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-28" target="5CcdiKCaSnjm8-DAV0x5-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="580" as="sourcePoint" />
+            <mxPoint x="-975" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-43" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Хозяйственная операция&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Проводки БУ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Д6001010000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;- взаимозачет&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="250" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-44" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-43" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-188" y="490" as="sourcePoint" />
+            <mxPoint x="-140" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-47" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Хозяйственная операция&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Проводки БУ&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Д6201020001&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp; - перевод долга&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="600" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-48" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-47" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-30" target="5CcdiKCaSnjm8-DAV0x5-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-188" y="490" as="sourcePoint" />
+            <mxPoint x="-130" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5CcdiKCaSnjm8-DAV0x5-26" target="5CcdiKCaSnjm8-DAV0x5-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-178" y="500" as="sourcePoint" />
+            <mxPoint x="-120" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-51" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Хозяйственная операция&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Проводки БУ&lt;br&gt;Д6201080200 К6201020001 - зачет аванса&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Д5100000000&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- факт.оплата&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Д6001010000&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- взаимозачет&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Д6201020001&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;К6201020001&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; - перевод долга&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="770" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5CcdiKCaSnjm8-DAV0x5-52" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="5CcdiKCaSnjm8-DAV0x5-51" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

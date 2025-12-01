@@ -1,9 +1,0 @@
-[!!! Purchases common SNGS](!!!%20Purchases%20common%20SNGS.md)
-[Contracts node](Contracts%20node.md)
-[Tenders node](Tenders%20node.md)
-
-[Electronic Document Flow node](Electronic%20Document%20Flow%20node.md)
-
-[Payments node](Payments%20node.md)
-
-[!!! Accounting common SNGS](!!!%20Accounting%20common%20SNGS.md)
