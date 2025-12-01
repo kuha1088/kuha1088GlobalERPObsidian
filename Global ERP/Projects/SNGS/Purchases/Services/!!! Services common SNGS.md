@@ -7,6 +7,14 @@
 [!!! Заявка на закупку common SNGS](!!!%20Заявка%20на%20закупку%20common%20SNGS.md)
 [!!! Контировка common SNGS](!!!%20Контировка%20common%20SNGS.md)
 [!!! Подбор поребности common SNGS](!!!%20Подбор%20поребности%20common%20SNGS.md)
+[!!! Права доступа services common SNGS](!!!%20Права%20доступа%20services%20common%20SNGS.md)
+[!!! Приходные акты common SNGS](!!!%20Приходные%20акты%20common%20SNGS.md)
+
+
+
+
+
+
 
 
 
