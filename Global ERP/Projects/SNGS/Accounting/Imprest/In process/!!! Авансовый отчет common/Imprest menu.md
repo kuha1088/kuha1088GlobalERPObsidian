@@ -1,0 +1,10 @@
+<u>Задачи Obsidian:</u>
+[!!! Общее по АО common SNGS](!!!%20Общее%20по%20АО%20common%20SNGS.md)
+
+<u>Задачи YT:<u>
+[Пункты меню : CASH-309](https://yt.surgutneftegas.ru:4443/issue/CASH-309)
+
+<u>Задачи Support:<u>
+
+<u>Материалы:<u>
+![](Pasted%20image%2020251127074840.png)

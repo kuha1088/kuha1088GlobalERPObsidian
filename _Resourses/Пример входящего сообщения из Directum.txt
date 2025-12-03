@@ -1,0 +1,87 @@
+{
+
+  "TripJobInfoForGlobal" :
+
+  {
+
+    "DestinationType" : "",
+
+    "RegNumber" : "",
+
+    "RegDate" : "",
+
+    "Index" : "",
+
+    "LifeCycleState" : "",
+
+    "PersonnelNumber" : "",
+
+    "DocKindFormCode" : "",
+
+    "TripReasonRegNum" : "",
+
+    "TripReasonRegDate" : "",
+
+    "DocumentKind" : "",
+
+    "StructlUnit" : "",
+
+    "AssigStructUnit" : "",
+
+    "DepartManagerCode" : "",
+
+    "StartDate" : "",
+
+    "EndDate" : "",
+
+    "FactStartDate" : "",
+
+    "DocumentLink" : "",
+
+    "TripRoute" :
+
+    [
+
+      {
+
+        "Number" : "",
+
+        "Country" : "",
+
+        "Destination" : "",
+
+        "StartDate" : "",
+
+        "EndDate" : "",
+
+        "Company" : "",
+
+        "StructUnit" : "",
+
+        "Mission" : ""
+
+      }
+
+    ],
+
+    "TripEstimate" :
+
+    [
+
+      {
+
+        "Sum" : "",
+
+        "Currency" : "",
+
+        "Way" : "",
+
+        "Date" : ""
+
+      }
+
+    ]
+
+  }
+
+}

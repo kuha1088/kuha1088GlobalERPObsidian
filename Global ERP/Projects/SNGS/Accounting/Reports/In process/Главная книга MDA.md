@@ -1,3 +1,6 @@
+<u>Задачи Obsidian:</u>
+[!!! Reports common SNGS](!!!%20Reports%20common%20SNGS.md)
+
 <u>Задачи YT:</u>
 [yt.surgutneftegas.ru:4443/issue/FI_REPORT-1](https://yt.surgutneftegas.ru:4443/issue/FI_REPORT-1)
 

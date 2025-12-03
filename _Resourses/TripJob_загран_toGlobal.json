@@ -1,0 +1,51 @@
+[
+	"net.oilix.udsm.messagecustom.Envelopecustom",
+	{
+		"chainId": "",
+		"requestId": "690574a8cd7c47d098a025e0f51424cf",
+		"parentId": "",
+		"source": "SNG_BUSTST_DB1_DIRECTUM_RX2",
+		"destination": "SNG_BUSTST_DB1_GLOBAL",
+		"status": "",
+		"messageStatus": "",
+		"datatype": "net.oilix.udsm.directumrx.TripJob",
+		"instance": [
+			"net.oilix.udsm.directumrx.TripJob",
+			{
+				"TripJobInfoForGlobal": {
+					"DestinationType": "Загран",
+					"RegNumber": "65-01-233-85",
+					"RegDate": "19.11.2025",
+					"Index": "85",
+					"LifeCycleState": "Выполнение",
+					"PersonnelNumber": "00200300",
+					"DocKindFormCode": "Т-10а",
+					"TripReasonRegNum": "",
+					"TripReasonRegDate": "",
+					"DocumentKind": "",
+					"StructlUnit": "0100",
+					"AssigStructUnit": "0100",
+					"DepartManagerCode": "00000465",
+					"StartDate": "24.11.2025",
+					"EndDate": "25.11.2025",
+					"FactStartDate": "",
+					"DocumentLink": "https://directumrxtst/DirectumRx?type=5a23ba3c-e2d2-4045-8d62-c68c7a3435e8&id=29440794",
+					"TripEstimate": [],
+					"TripRoute": [
+						{
+							"Number": "1",
+							"Country": "643",
+							"Destination": "г.Ханты-Мансийск",
+							"StartDate": "24.11.2025",
+							"EndDate": "25.11.2025",
+							"Company": "",
+							"StructUnit": "",
+							"Mission": "123"
+						}
+					]
+				}
+			}
+		],
+		"fileName": ""
+	}
+]
