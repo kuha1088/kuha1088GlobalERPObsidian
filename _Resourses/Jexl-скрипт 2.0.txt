@@ -1,0 +1,36 @@
+const avRow = sql(`
+select det.id as iddet
+      ,n.id as idneedobj
+      ,pt.id as idpurchtrans
+from Prs_PurchReqDet det
+join Prs_PurchReqVer ver on ver.id = det.idPurchReqVer
+join Prs_PurchReq req on req.id = ver.idPurchReq
+join Prs_NeedObj n on det.idPurchReqPos = getGidId(n.gidDetNeed)
+join Prs_PurchTrans pt on pt.idNeedObj = n.id
+join Btk_ObjectType ot on req.idObjectType = ot.id
+where ot.sCode = 'Prs_PurchReqCC'
+and coalesce(det.nPriceRate, 0) <> 0
+order by det.id
+`).asList();
+
+for (r : avRow) {
+  var ropDet = Prs_PurchReqDetApi.load(r.iddet);
+  var ropNeedObj = Prs_NeedObjApi.load(r.idneedobj);
+  var ropPurchTrans = Prs_PurchTransApi.load(r.idpurchtrans);
+
+  if (parseIdClass(ropPurchTrans.gidSrcDetObj) == Cnt_ContractSpecApi.idClass()) {
+    // Обновляем объект потребности, а так же проводку
+    if (ropDet.nTotalSumNoTax != ropNeedObj.nQtyBase) {
+      Prs_NeedObjApi.setnQtyBase(ropNeedObj, ropDet.nTotalSumNoTax);
+    }
+    if (ropDet.nTotalSumNoTax != ropPurchTrans.nQtyBase) {
+      Prs_PurchTransApi.setnQtyBase(ropPurchTrans, ropDet.nTotalSumNoTax);
+      // Обновляем позицию спецификации
+      var ropCntSpec = Cnt_ContractSpecApi.loadByGid(ropPurchTrans.gidSrcDetObj);
+      Prs_ContractPkg.recalcQtyByPurchTrans(ropCntSpec);
+    }
+  }
+  session.flush();
+};
+
+session.commit();
