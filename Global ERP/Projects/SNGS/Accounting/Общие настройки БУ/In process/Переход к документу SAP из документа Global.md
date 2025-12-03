@@ -1,5 +1,5 @@
 <u>Задачи Obsidian:</u>
-[!!! Reports common SNGS](!!!%20Reports%20common%20SNGS.md)
+[!!! Общие настройки БУ SNGS](!!!%20Общие%20настройки%20БУ%20SNGS.md)
 
 <u>Задачи YT:<u>
 [https://yt.surgutneftegas.ru:4443/issue/CASH-177](https://yt.surgutneftegas.ru:4443/issue/CASH-177)
